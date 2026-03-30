@@ -75,6 +75,46 @@ main {
     padding:var(--space-xl);
 }
 
+/*ESTILO PAGE DE EQUIPO*/
+.equipo-container {
+    padding: 3em;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:5em;
+}
+
+.equipo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+}
+
+.equipo-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.equipo-item p {
+    font-size: 16px;
+}
+
+.equipo-item img {
+    width: 100%;
+    max-width: 280px;
+    border: 5px solid var(--color-acento);
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 8px;
+}
+
 /*FOOTER*/
 /*definimos estilos para el pie de página, incluyendo el fondo, el color del texto, la alineación del texto, el padding y un borde superior para separar visualmente el pie de página del contenido principal. También se incluye un margen superior para crear espacio entre el contenido principal y el pie de página */
 footer {
