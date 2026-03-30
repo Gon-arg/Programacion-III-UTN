@@ -11,7 +11,7 @@ Universidad Tecnológica Nacional
 - Fede Marcenac   — rama_fede
 - Ulises Fossati  — rama_ulises
 - Nacho Alvarado  — rama_nacho
-- Juan Cruz Luro  — rama_juan
+
 
 ## Descripción
 
