@@ -85,3 +85,39 @@ footer {
     border-top:2px solid var(--color-acento);
     margin-top:var(--space-l);
 }
+
+/* SERVICIOS - BOX MODEL */
+.servicio-card {
+    /* Borde solicitado en el enunciado */
+    border: 1px solid var(--color-acento);
+    
+    /* Padding: espacio interno para que el texto no toque el borde */
+    padding: var(--space-l);
+    
+    /* Margin: espacio externo para separar una tarjeta de otra */
+    margin-bottom: var(--space-l);
+    
+    /* Fondo y estetica */
+    background-color: var(--color-header);
+    border-radius: 8px;
+}
+
+/* Estilo para las imagenes dentro de las tarjetas */
+.servicio-card img {
+    width: 100%;       /* Para que se adapte al ancho de la tarjeta */
+    max-width: 400px;  /* Para que no se haga gigante */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: var(--space-m);
+    display: block;
+}
+
+/* Estilo para los titulos y precios dentro de la tarjeta */
+.servicio-card h3 {
+    color: var(--color-acento);
+    margin-bottom: var(--space-s);
+}
+
+.servicio-card p {
+    margin-bottom: var(--space-s);
+}
