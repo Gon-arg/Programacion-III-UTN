@@ -116,15 +116,37 @@ main {
 }
 
 /*ESTILOS PARA HOJA DE PREGUNTAS FRECUENTES*/
-.cuadro-pregunta{
-
-    border: 3px solid var(--color-acento) ;
-    width: 30%;
-    
+.contenedorpreguntas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-l);
+    max-width: 1100px;
+    margin: var(--space-l) auto 0;
 }
 
-.cuadro-pregunta{
-    gap: 2em;
+.cuadro-pregunta {
+    background-color: var(--color-header);
+    border: 1px solid rgba(127, 119, 221, 0.35);
+    border-left: 4px solid var(--color-acento);
+    border-radius: 12px;
+    padding: var(--space-l) var(--space-xl);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+}
+
+
+
+.cuadro-pregunta h2 {
+    color: var(--color-acento);
+    font-size: 1.125rem;
+    line-height: 1.35;
+    margin-bottom: var(--space-m);
+    font-weight: 700;
+}
+
+.cuadro-pregunta p {
+    color: var(--color-texto-secundario);
+    margin: 0;
+    line-height: 1.65;
 }
 /*FOOTER*/
 /*definimos estilos para el pie de página, incluyendo el fondo, el color del texto, la alineación del texto, el padding y un borde superior para separar visualmente el pie de página del contenido principal. También se incluye un margen superior para crear espacio entre el contenido principal y el pie de página */
